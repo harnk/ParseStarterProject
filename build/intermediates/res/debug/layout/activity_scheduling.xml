@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.parse.starter.SchedulingActivity">
+
+    <CheckBox
+        android:id="@+id/mondayCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monday" />
+
+    <CheckBox
+        android:id="@+id/tuesdayCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuesday" />
+
+    <CheckBox
+        android:id="@+id/wednesdayCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wednesday" />
+
+    <CheckBox
+        android:id="@+id/thursdayCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thursday" />
+
+    <CheckBox
+        android:id="@+id/fridayCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Friday" />
+
+    <CheckBox
+        android:id="@+id/saturdayCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saturday" />
+
+    <CheckBox
+        android:id="@+id/sundayCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sunday" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner" />
+
+    <Button
+        android:id="@+id/doneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:onClick="done"
+        android:text="DONE" />
+</LinearLayout>
+<!-- From: file:/Users/scottnull/git/junk/3dcatholic-android/Parse-Starter-Project-1.9.4/ParseStarterProject/res/layout/activity_scheduling.xml -->

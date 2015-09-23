@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="schedule"
+        android:tag="angelus"
+        android:textColor="#000000">
+
+        <ImageView
+            android:id="@+id/readingImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/prayer2"
+
+            />
+
+        <TextView
+            android:id="@+id/angelusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/readingImageView"
+            android:text="THE ANGELUS"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/angelusTextView"
+            android:layout_toRightOf="@id/readingImageView"
+            android:text="Praying without ceasing is the path to Sainthood. Tap to set up a daily Angelus prayer."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+        />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:onClick="schedule"
+        android:tag="fasting">
+
+        <ImageView
+            android:id="@+id/breadImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/fasting2" />
+
+        <TextView
+            android:id="@+id/fridayTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/breadImageView"
+            android:text="FRIDAY FASTING"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fridayTextView"
+            android:layout_toRightOf="@id/breadImageView"
+            android:text="Fasting purifies the mind and brings us closer to God. Tap to set up a Friday fast."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/studentsImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/worksofmercy2" />
+
+        <TextView
+            android:id="@+id/worksTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/studentsImageView"
+            android:text="WORKS OF MERCY"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/worksTextView"
+            android:layout_toRightOf="@id/studentsImageView"
+            android:text="Service brings us close to those most in need. Discover ways to help in your area."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+        />
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/sproud"
+            android:text="Daily" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/location"
+            android:text="Nearby" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/cathedral"
+            android:text="Prayer" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/streetview"
+            android:text="Me" />
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/Users/scottnull/git/junk/3dcatholic-android/Parse-Starter-Project-1.9.4/ParseStarterProject/res/layout/main.xml -->
